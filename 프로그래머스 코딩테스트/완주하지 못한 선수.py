@@ -5,7 +5,6 @@ def solution(participant,completion):
     
     participant.sort()
     completion.sort()
-    #test
     for par in participant:
         dic[hash(par)] = par
         temp += int(hash(par))
@@ -14,3 +13,4 @@ def solution(participant,completion):
         temp -= hash(com)
             
     return dic[temp]
+    #test
