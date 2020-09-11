@@ -3,10 +3,9 @@ def solution(participant,completion):
     temp = 0
     dic = {}
     
-    
     participant.sort()
     completion.sort()
-
+    #test
     for par in participant:
         dic[hash(par)] = par
         temp += int(hash(par))
